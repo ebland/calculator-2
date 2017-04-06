@@ -1,25 +1,25 @@
 """Math functions for calculator."""
 
 
-def add(num1, num2):
+def add(nums):
     """Return the sum of the two input integers."""
 
-    return num1 + num2
+    return sum(nums)
 
 
-def subtract(num1, num2):
+def subtract(nums):
     """Return the second number subtracted from the first."""
 
     return num1 - num2
 
 
-def multiply(num1, num2):
+def multiply(nums):
     """Multiply the two inputs together."""
 
     return num1 * num2
 
 
-def divide(num1, num2):
+def divide(nums):
     """Divide the first input by the second, returning a floating point."""
 
     # Need to turn at least one argument to float for division to
@@ -28,7 +28,7 @@ def divide(num1, num2):
     return float(num1) / num2
 
 
-def square(num1):
+def square(nums):
     """Return the square of the input."""
 
     # Needs only one argument
@@ -36,7 +36,7 @@ def square(num1):
     return num1 * num1
 
 
-def cube(num1):
+def cube(nums):
     """Return the cube of the input."""
 
     # Needs only one argument
@@ -44,13 +44,13 @@ def cube(num1):
     return num1 * num1 * num1
 
 
-def power(num1, num2):
+def power(nums):
     """Raise num1 to the power of num and return the value."""
 
     return num1 ** num2  # ** = exponent operator
 
 
-def mod(num1, num2):
+def mod(nums):
     """Return the remainder of num / num2."""
 
     return num1 % num2
