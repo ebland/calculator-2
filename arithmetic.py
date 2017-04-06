@@ -3,8 +3,10 @@
 
 def add(nums):
     """Return the sum of the two input integers."""
-
-    return sum(nums)
+    total = 0
+    for num in nums[1:]:
+        total = int(num) + total
+    return total
 
 
 def subtract(nums):
@@ -15,7 +17,7 @@ def subtract(nums):
 
 def multiply(nums):
     """Multiply the two inputs together."""
-
+ 
     return num1 * num2
 
 
